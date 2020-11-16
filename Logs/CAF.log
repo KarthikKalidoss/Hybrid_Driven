@@ -1,0 +1,66 @@
+11/13/2020 11:07:34 PM: INFO: *************** TEST_001_LOGIN *******************
+11/13/2020 11:07:34 PM: INFO: *************** VERIFYING URL / HOME PAGE TITLE *******************
+11/13/2020 11:07:36 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+11/13/2020 11:07:40 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:07:42 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:07:46 PM: INFO: ***********************Test_002_DDT_Login************************** 
+11/13/2020 11:07:46 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+11/13/2020 11:07:47 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:07:48 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:07:48 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:07:48 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:07:48 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:07:48 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+11/13/2020 11:07:48 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+11/13/2020 11:07:48 PM: INFO: ****************END OF Test_002_DDT_Login*****************
+11/13/2020 11:09:06 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:09:07 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:15:02 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:15:03 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:16:18 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:16:19 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:19:09 PM: INFO: *************** TEST_001_LOGIN *******************
+11/13/2020 11:19:09 PM: INFO: *************** VERIFYING URL / HOME PAGE TITLE *******************
+11/13/2020 11:19:10 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+11/13/2020 11:19:13 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:19:14 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:19:18 PM: INFO: ***********************Test_002_DDT_Login************************** 
+11/13/2020 11:19:18 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+11/13/2020 11:19:19 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:19:19 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:19:20 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:19:20 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:19:20 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:19:20 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+11/13/2020 11:19:20 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+11/13/2020 11:19:20 PM: INFO: ****************END OF Test_002_DDT_Login*****************
+11/13/2020 11:50:01 PM: INFO: *************** TEST_001_LOGIN *******************
+11/13/2020 11:50:01 PM: INFO: *************** VERIFYING URL / HOME PAGE TITLE *******************
+11/13/2020 11:50:01 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+11/13/2020 11:50:04 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/13/2020 11:50:05 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/13/2020 11:50:09 PM: INFO: ***********************Test_002_DDT_Login************************** 
+11/13/2020 11:50:09 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+11/13/2020 11:50:10 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:50:11 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:50:11 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:50:12 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:50:12 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/13/2020 11:50:12 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+11/13/2020 11:50:12 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+11/13/2020 11:50:12 PM: INFO: ****************END OF Test_002_DDT_Login*****************
+11/16/2020 12:33:33 PM: INFO: *************** TEST_001_LOGIN *******************
+11/16/2020 12:33:33 PM: INFO: *************** VERIFYING URL / HOME PAGE TITLE *******************
+11/16/2020 12:33:34 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+11/16/2020 12:33:38 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+11/16/2020 12:33:40 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+11/16/2020 12:33:45 PM: INFO: ***********************Test_002_DDT_Login************************** 
+11/16/2020 12:33:45 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+11/16/2020 12:33:48 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/16/2020 12:33:50 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/16/2020 12:33:50 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/16/2020 12:33:51 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/16/2020 12:33:51 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+11/16/2020 12:33:51 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+11/16/2020 12:33:52 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+11/16/2020 12:33:52 PM: INFO: ****************END OF Test_002_DDT_Login*****************
