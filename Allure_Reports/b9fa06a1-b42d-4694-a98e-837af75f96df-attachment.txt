@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_login_allure.py:19 *************** TEST_001_LOGIN *******************
+[32mINFO    [0m root:test_login_allure.py:20 *************** VERIFYING URL / HOME PAGE TITLE *******************
+[1m[31mERROR   [0m root:test_login_allure.py:33 *************** URL AND HOME PAGE TITLE IS FAILED *******************

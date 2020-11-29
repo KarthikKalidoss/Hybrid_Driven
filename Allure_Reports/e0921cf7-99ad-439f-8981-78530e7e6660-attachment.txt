@@ -1,0 +1,4 @@
+[32mINFO    [0m root:test_login_allure.py:42 *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+[32mINFO    [0m root:test_login_allure.py:52 *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+[32mINFO    [0m root:test_login_allure.py:64 *****************END OF URL AND LOGIN VALIDATION TEST*****************
+[32mINFO    [0m root:test_login_allure.py:65 *******************END OF Test_001_login*****************

@@ -39,8 +39,8 @@ def browser(request):  # This will return the Browser value to setup method
 
 # It is hook for Adding Environment info to HTML Report
 def pytest_configure(config):
-    config._metadata['Project Name'] = 'CAF ADMIN'
-    config._metadata['Module Name'] = 'LOGIN'
+    config._metadata['Project Name'] = 'SQA SUPPORT AUTOMATION'
+    config._metadata['Module Name'] = 'SQA CAF ADMIN PORTAL'
     config._metadata['Tester'] = 'KARTHIK KALIDOSS'
 
 

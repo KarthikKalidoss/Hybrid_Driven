@@ -1,5 +1,5 @@
 import time
-
+import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -18,7 +18,7 @@ class Test_002_DDT_login:
 
     @pytest.mark.regression
     def test_login_ddt(self, driver_setup):
-        self.logger.info('***********************Test_002_DDT_Login************************** ')
+        self.logger.info('***********************Test_002_DDT_LOGIN************************** ')
         self.logger.info('VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST')
         self.driver = driver_setup
         self.driver.get(self.url)
@@ -75,4 +75,4 @@ class Test_002_DDT_login:
             assert False
 
         self.logger.info('*****************END OF DATA DRIVEN TEST*****************')
-        self.logger.info('****************END OF Test_002_DDT_Login*****************')
+        self.logger.info('****************END OF Test_002_DDT_LOGIN*****************')
