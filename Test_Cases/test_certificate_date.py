@@ -8,7 +8,7 @@ from Page_Objects.Login_Page import login
 from Utilities.CustomLogger import LogGen
 
 
-class Test_004_exceptional_entries:
+class Test_006_certificate_date:
     url = ReadConfig.getApplicationURL()
     username = ReadConfig.getUserName()
     password = ReadConfig.getPassword()
@@ -28,30 +28,29 @@ class Test_004_exceptional_entries:
         if actual_title == 'Home Page - SQA.Net.LiveAdmin':
             assert True
             self.logger.info('*************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************')
-            self.exc_entries = login(self.driver)
-            self.exc_entries.click_exceptional_processing()
-            message = self.exc_entries.file_upload(self)
+            self.cert_date = login(self.driver)
+            self.cert_date.click_certificate_date()
+            message = self.cert_date.cert_date_file_upload(self)
             if message == 'File has been processed successfully.':
-                print('EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED')
+                print('CERTIFICATE DATE AND ENTRY STATUS FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED')
                 assert True
-                self.logger.info('*** EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED ***' + message)
+                self.logger.info('** CDES FILE PROCESSED SUCCESSFULLY - TEST IS PASSED **' + message)
             else:
-                print('EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED')
-                self.driver.save_screenshot(".\\Screenshots\\" + "EE_file_process_status.png")
+                print('CERTIFICATE DATE AND ENTRY STATUS FILE PROCESS IS FAILED - TEST IS FAILED')
+                self.driver.save_screenshot(".\\Screenshots\\" + "CDES_file_process_status.png")
                 self.driver.close()
-                self.logger.error('******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******' + message)
+                self.logger.error('**** CDES FILE PROCESS IS FAILED - TEST IS FAILED ****' + message)
                 assert False
 
         else:
-            self.driver.save_screenshot(".\\Screenshots\\" + "Test_Login.png")
+            self.driver.save_screenshot(".\\Screenshots\\" + "certificate_date.png")
             self.driver.close()
             self.logger.error('*************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS FAILED *******************')
             assert False
 
-        # LOGOUT
         self.lo = login(self.driver)
         self.lo.click_logout()
         # self.lo.confirm_logout()
         self.driver.close()
-        self.logger.info('*****************END OF EXCEPTIONAL ENTRIES TEST*****************')
-        self.logger.info('***************END OF Test_004_EXCEPTIONAL_ENTRIES*****************')
+        self.logger.info('************* END OF CERTIFICATION DATE AND ENTRY STATUS TEST *****************')
+        self.logger.info('**************** END OF Test_006_certificate_date *****************')

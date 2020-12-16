@@ -138,7 +138,18 @@ class login:
         self.driver.find_element_by_xpath(self.submit_button_xpath).submit()
         message = self.driver.find_element_by_xpath(self.alert_message).text
         return message
+
     # ********************************** END OF CHOOSE FILE BUTTON FOR CLC INVOICE *********************************
 
-    # def confirm_logout(self):
-    #     self.driver.find_element_by_xpath(self.button_confirm_logout).click()
+    # **************** FUNCTIONALITY BUTTON CLICK FOR CERTIFICATE DATE AND ENTRY STATUS UPDATE**********************
+    def click_certificate_date(self):
+        self.driver.find_element_by_xpath(self.button_certificate_date).click()
+
+    # *********************************** CHOOSE FILE BUTTON FOR CLC INVOICE****************************************
+    def cert_date_file_upload(self, selected_file):
+        selected_file = self.driver.find_element_by_xpath(self.choose_file)
+        # ********************************* SELECT ONE CSV FILES ****************************************************
+        selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/CDES-Update.csv")
+        self.driver.find_element_by_xpath(self.submit_button_xpath).submit()
+        message = self.driver.find_element_by_xpath(self.alert_message).text
+        return message

@@ -1083,3 +1083,77 @@
 12/16/2020 10:31:53 AM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
 12/16/2020 10:31:53 AM: INFO: *****************END OF DATA DRIVEN TEST*****************
 12/16/2020 10:31:53 AM: INFO: ****************END OF Test_002_DDT_LOGIN*****************
+12/16/2020 09:38:55 PM: INFO: ***********************Test_003_BUTTON-VALIDATIONS************************** 
+12/16/2020 09:38:55 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:38:57 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:38:57 PM: INFO: ********* EXCEPTIONAL ENTRIES BUTTON VALIDATION IS PASSED ****************
+12/16/2020 09:38:57 PM: INFO: ********* CLC BUTTON VALIDATION IS PASSED ****************
+12/16/2020 09:38:57 PM: INFO: ********* CERTIFICATE DATE BUTTON VALIDATION TEST IS  PASSED ****************
+12/16/2020 09:38:57 PM: INFO: ********* CERTIFICATE RE-PRINT BUTTON VALIDATION TEST IS PASSED ****************
+12/16/2020 09:38:57 PM: INFO: **** ASSESSMENT ARRANGEMENTS VALID  VALUES BUTTON VALIDATION TEST IS PASSED *****
+12/16/2020 09:38:57 PM: INFO: ********* USER NAME PROFILE BUTTON IS NOT ENABLED - PASSED ****************
+12/16/2020 09:38:58 PM: INFO: *****************END OF BUTTON VALIDATION TEST*****************
+12/16/2020 09:38:58 PM: INFO: ****************END OF Test_003_BUTTONS VALIDATIONS*****************
+12/16/2020 09:39:01 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:39:03 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:39:05 PM: ERROR: **** CDES FILE PROCESS IS FAILED - TEST IS FAILED ****The process has been aborted. No record at entry status 4 was found in entries for SCN 180004890, Product Code/Level GL6C/16.
+12/16/2020 09:39:09 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:39:11 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:39:12 PM: ERROR: **** CLC INVOICE EXEMPTIONS FILE PROCESS IS FAILED - TEST IS FAILED ****A record has been detected in the cert_result table for SCN 123456851, Product code/level HG12/53 and Completion date 25/05/2019 00:00:00.
+12/16/2020 09:39:16 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:39:17 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:39:19 PM: ERROR: ******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******A record has been detected in the entries table for SCN 123456867, Product code/level G1J6/16 and Completion date 31/10/2021 00:00:00.
+12/16/2020 09:39:22 PM: INFO: ********************** TEST_001_LOGIN *******************
+12/16/2020 09:39:22 PM: INFO: *************** URL VALIDATION / HOME PAGE TITLE *******************
+12/16/2020 09:39:23 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+12/16/2020 09:39:27 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:39:28 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:39:29 PM: INFO: *****************END OF URL AND LOGIN VALIDATION TEST*****************
+12/16/2020 09:39:29 PM: INFO: *********************END OF Test_001_LOGIN*****************
+12/16/2020 09:39:33 PM: INFO: ***********************Test_002_DDT_LOGIN************************** 
+12/16/2020 09:39:33 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+12/16/2020 09:39:35 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:39:36 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:39:37 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:39:37 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:39:38 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:39:38 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+12/16/2020 09:39:38 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+12/16/2020 09:39:38 PM: INFO: ****************END OF Test_002_DDT_LOGIN*****************
+12/16/2020 09:43:26 PM: INFO: ***********************Test_003_BUTTON-VALIDATIONS************************** 
+12/16/2020 09:43:26 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:43:28 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:43:28 PM: INFO: ********* EXCEPTIONAL ENTRIES BUTTON VALIDATION IS PASSED ****************
+12/16/2020 09:43:28 PM: INFO: ********* CLC BUTTON VALIDATION IS PASSED ****************
+12/16/2020 09:43:28 PM: INFO: ********* CERTIFICATE DATE BUTTON VALIDATION TEST IS  PASSED ****************
+12/16/2020 09:43:28 PM: INFO: ********* CERTIFICATE RE-PRINT BUTTON VALIDATION TEST IS PASSED ****************
+12/16/2020 09:43:28 PM: INFO: **** ASSESSMENT ARRANGEMENTS VALID  VALUES BUTTON VALIDATION TEST IS PASSED *****
+12/16/2020 09:43:29 PM: INFO: ********* USER NAME PROFILE BUTTON IS NOT ENABLED - PASSED ****************
+12/16/2020 09:43:30 PM: INFO: *****************END OF BUTTON VALIDATION TEST*****************
+12/16/2020 09:43:30 PM: INFO: ****************END OF Test_003_BUTTONS VALIDATIONS*****************
+12/16/2020 09:43:34 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:43:36 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:43:38 PM: ERROR: **** CDES FILE PROCESS IS FAILED - TEST IS FAILED ****The process has been aborted. No record at entry status 4 was found in entries for SCN 180004890, Product Code/Level GL6C/16.
+12/16/2020 09:43:42 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:43:44 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:43:46 PM: ERROR: **** CLC INVOICE EXEMPTIONS FILE PROCESS IS FAILED - TEST IS FAILED ****A record has been detected in the cert_result table for SCN 123456851, Product code/level HG12/53 and Completion date 25/05/2019 00:00:00.
+12/16/2020 09:43:50 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:43:53 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:43:55 PM: ERROR: ******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******A record has been detected in the entries table for SCN 123456867, Product code/level G1J6/16 and Completion date 31/10/2021 00:00:00.
+12/16/2020 09:43:59 PM: INFO: ********************** TEST_001_LOGIN *******************
+12/16/2020 09:43:59 PM: INFO: *************** URL VALIDATION / HOME PAGE TITLE *******************
+12/16/2020 09:44:00 PM: INFO: *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************
+12/16/2020 09:44:04 PM: INFO: *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+12/16/2020 09:44:06 PM: INFO: *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+12/16/2020 09:44:07 PM: INFO: *****************END OF URL AND LOGIN VALIDATION TEST*****************
+12/16/2020 09:44:07 PM: INFO: *********************END OF Test_001_LOGIN*****************
+12/16/2020 09:44:11 PM: INFO: ***********************Test_002_DDT_LOGIN************************** 
+12/16/2020 09:44:11 PM: INFO: VERIFYING CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST
+12/16/2020 09:44:14 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:44:16 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:44:17 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:44:18 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:44:18 PM: INFO: *************** CAF ADMIN LOGIN VALIDATION TEST IS PASSED *******************
+12/16/2020 09:44:18 PM: INFO: CAF ADMIN LOGIN VALIDATION - DATA DRIVEN TEST IS PASSED
+12/16/2020 09:44:19 PM: INFO: *****************END OF DATA DRIVEN TEST*****************
+12/16/2020 09:44:19 PM: INFO: ****************END OF Test_002_DDT_LOGIN*****************
