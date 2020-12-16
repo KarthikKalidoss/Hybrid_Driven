@@ -48,6 +48,7 @@ class Test_004_exceptional_entries:
             self.logger.error('*************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS FAILED *******************')
             assert False
 
+        #LOGOUT
         self.lo = login(self.driver)
         self.lo.click_logout()
         # self.lo.confirm_logout()
