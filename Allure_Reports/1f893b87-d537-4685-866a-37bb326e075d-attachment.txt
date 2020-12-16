@@ -1,3 +1,0 @@
-[32mINFO    [0m root:test_login_allure.py:19 *************** TEST_001_LOGIN *******************
-[32mINFO    [0m root:test_login_allure.py:20 *************** VERIFYING URL / HOME PAGE TITLE *******************
-[32mINFO    [0m root:test_login_allure.py:27 *************** URL WORKING FINE AND HOME PAGE TITLE IS PASSED *******************

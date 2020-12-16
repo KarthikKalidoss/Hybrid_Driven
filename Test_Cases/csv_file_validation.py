@@ -1,6 +1,7 @@
 import csv
 import pandas as pd
 
+
 with open('C:/Karthik/Execeptional_entries_empty.csv', 'r') as csv_file:
     csv_dict = [row for row in csv.DictReader(csv_file)]
     if len(csv_dict) == 0:

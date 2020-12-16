@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>Sanity_and_Regression_Test_Report.html</h1>
-    <p>Report generated on 29-Nov-2020 at 23:01:46 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 15-Dec-2020 at 16:53:31 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -265,8 +265,8 @@ function filter_table(elem) {
         <td>Tester</td>
         <td>KARTHIK KALIDOSS</td></tr></table>
     <h2>Summary</h2>
-    <p>5 tests ran in 34.72 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">4 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>6 tests ran in 35.73 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">6 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -277,22 +277,11 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test_exceptional_entries.py::Test_004_login::test_login</td>
-          <td class="col-duration">3.84</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;Test_Cases.test_exceptional_entries.Test_004_login object at 0x0000020FCBEFCE10&gt;<br/>driver_setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&quot;3c48cb3cb56bc6eb18f04ded3e2555ec&quot;)&gt;<br/><br/>    @pytest.mark.regression<br/>    def test_login(self, driver_setup):<br/>        self.logger.info(&#x27;*************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************&#x27;)<br/>        self.driver = driver_setup<br/>        self.driver.get(self.url)<br/>        self.lp = login(self.driver)<br/>        self.lp.set_username(self.username)<br/>        self.lp.set_password(self.password)<br/>        self.lp.click_login()<br/>        actual_title = self.driver.title<br/>        if actual_title == &#x27;Home Page - SQA.Net.LiveAdmin&#x27;:<br/>            assert True<br/>            self.logger.info(&#x27;*************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************&#x27;)<br/>            self.exc_entries = login(self.driver)<br/>            self.exc_entries.click_exceptional_processing()<br/>            message = self.exc_entries.file_upload(self)<br/>            if message == &#x27;File has been processed successfully.&#x27;:<br/>                print(&#x27;EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED&#x27;)<br/>                assert True<br/>                self.logger.info(&#x27;*** EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED ***&#x27; + message)<br/>            else:<br/>                print(&#x27;EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED&#x27;)<br/>                print(&#x27;EXCEPTIONAL ENTRIES TEST IS FAILED&#x27;)<br/>                self.driver.save_screenshot(&quot;.\\Screenshots\\&quot; + &quot;file_process_status1.png&quot;)<br/>                self.driver.close()<br/>                self.logger.error(&#x27;******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******&#x27; + message)<br/>&gt;               assert False<br/><span class="error">E               assert False</span><br/><br/>Test_Cases\test_exceptional_entries.py:44: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_exceptional_entries.py:20 *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
-[32mINFO    [0m root:test_exceptional_entries.py:30 *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
-[1m[31mERROR   [0m root:test_exceptional_entries.py:43 ******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******A record has been detected in the entries table for SCN 123456860, Product code/level G1J6/16 and Completion date 31/10/2021 00:00:00.<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_button_validations.py::Test_003_button_validation::test_buttons_validation</td>
-          <td class="col-duration">2.74</td>
+          <td class="col-duration">1.81</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -310,8 +299,34 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
+          <td class="col-name">test_clc_invoice.py::Test_005_clc_invoice::test_login</td>
+          <td class="col-duration">4.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_clc_invoice.py:20 *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+[32mINFO    [0m root:test_clc_invoice.py:30 *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+[32mINFO    [0m root:test_clc_invoice.py:37 ** CLC INVOICE EXEMPTIONS FILE PROCESSED SUCCESSFULLY - TEST IS PASSED **File has been processed successfully.
+[32mINFO    [0m root:test_clc_invoice.py:55 ************* END OF CLC INVOICE EXEMPTIONS TEST *****************
+[32mINFO    [0m root:test_clc_invoice.py:56 **************** END OF Test_004_CLC_INVOICE *****************<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_exceptional_entries.py::Test_004_exceptional_entries::test_login</td>
+          <td class="col-duration">3.57</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m root:test_exceptional_entries.py:20 *************** VERIFYING CAF ADMIN PORTAL VALIDATION *******************
+[32mINFO    [0m root:test_exceptional_entries.py:30 *************** CAF ADMIN PORTAL VALIDATION LOGIN TEST IS PASSED *******************
+[32mINFO    [0m root:test_exceptional_entries.py:37 *** EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED ***File has been processed successfully.
+[32mINFO    [0m root:test_exceptional_entries.py:55 *****************END OF EXCEPTIONAL ENTRIES TEST*****************
+[32mINFO    [0m root:test_exceptional_entries.py:56 ***************END OF Test_004_EXCEPTIONAL_ENTRIES*****************<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
           <td class="col-name">test_login.py::Test_001_login::test_Home_Page_Title</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -322,7 +337,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_login.py::Test_001_login::test_login</td>
-          <td class="col-duration">2.53</td>
+          <td class="col-duration">1.54</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -334,7 +349,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_login_ddt.py::Test_002_DDT_login::test_login_ddt</td>
-          <td class="col-duration">5.10</td>
+          <td class="col-duration">2.88</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

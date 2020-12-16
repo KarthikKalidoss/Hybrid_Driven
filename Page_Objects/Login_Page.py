@@ -16,7 +16,7 @@ class login:
     button_login_xpath = "//button[contains(text(),'Log in')]"
 
     # *************************WEB-ELEMENTS FOR LOG-OUT BUTTON*************************
-    button_logout_xpath = "//button[contains(text(),'Logout')]"
+    button_logout_xpath = "//header/nav[1]/div[1]/div[1]/ul[1]/li[2]/form[1]"
     button_confirm_logout = "//button[contains(text(),'Yes - Logout')]"
 
     # *************************WEB-ELEMENTS FOR MAIN FUNCTIONALITY BUTTONS*************************
@@ -99,22 +99,46 @@ class login:
         username_button = self.driver.find_element_by_xpath(self.button_enabled)
         print('USER NAME BUTTON IS ENABLED - ', username_button.is_enabled())
 
-    # *************************** FUNCTIONALITY BUTTON CLICKS ******************************************
+    # *************************** FUNCTIONALITY BUTTON CLICK FOR EXCEPTIONAL ENTRIES ***********************************
     def click_exceptional_processing(self):
         self.driver.find_element_by_xpath(self.button_exceptional_processing).click()
 
-    # ************************* CHOOSE FILE BUTTON *****************************************************
+    # ********************************* CHOOSE FILE BUTTON FOR EXCEPTIONAL ENTRIES ************************************
     def file_upload(self, selected_file):
         selected_file = self.driver.find_element_by_xpath(self.choose_file)
+
+        # ********************************* SELECT ONE CSV FILES ****************************************************
         selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries.csv")
 
-        # ********************************* SELECT TWO FILES ****************************************************
-        # selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/CLC_Exemptions_NEW.csv \n "
-        #                         "C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries.csv ")
+        # ********************************* SELECT TWO CSV FILES ****************************************************
+        # selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries.csv \n "
+        #                         "C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries1.csv ")
 
         self.driver.find_element_by_xpath(self.submit_button_xpath).submit()
         message = self.driver.find_element_by_xpath(self.alert_message).text
         return message
+
+    # ****************************END OF FUNCTIONALITY BUTTON CLICK FOR EXCEPTIONAL ENTRIES **************************
+
+    # *************************** FUNCTIONALITY BUTTON CLICK FOR CLC INVOICE *****************************************
+    def click_clc_exemptions(self):
+        self.driver.find_element_by_xpath(self.button_clc).click()
+
+    # *********************************** CHOOSE FILE BUTTON FOR CLC INVOICE****************************************
+    def clc_file_upload(self, selected_file):
+        selected_file = self.driver.find_element_by_xpath(self.choose_file)
+
+        # ********************************* SELECT ONE CSV FILES ****************************************************
+        selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/CLC_Exemptions.csv")
+
+        # ********************************* SELECT TWO CSV FILES ****************************************************
+        # selected_file.send_keys("C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries.csv \n "
+        #                         "C:/Karthik/New_Projects/Hybrid_Driven/Test_Data/Exceptional_Entries1.csv ")
+
+        self.driver.find_element_by_xpath(self.submit_button_xpath).submit()
+        message = self.driver.find_element_by_xpath(self.alert_message).text
+        return message
+    # ********************************** END OF CHOOSE FILE BUTTON FOR CLC INVOICE *********************************
 
     # def confirm_logout(self):
     #     self.driver.find_element_by_xpath(self.button_confirm_logout).click()

@@ -8,7 +8,7 @@ from Page_Objects.Login_Page import login
 from Utilities.CustomLogger import LogGen
 
 
-class Test_004_login:
+class Test_004_exceptional_entries:
     url = ReadConfig.getApplicationURL()
     username = ReadConfig.getUserName()
     password = ReadConfig.getPassword()
@@ -37,11 +37,10 @@ class Test_004_login:
                 self.logger.info('*** EXCEPTIONAL ENTRIES FILE PROCESSED SUCCESSFULLY  - TEST IS PASSED ***' + message)
             else:
                 print('EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED')
-                self.driver.save_screenshot(".\\Screenshots\\" + "file_process_status1.png")
+                self.driver.save_screenshot(".\\Screenshots\\" + "EE_file_process_status.png")
                 self.driver.close()
                 self.logger.error('******* EXCEPTIONAL ENTRY FILE PROCESS IS FAILED - TEST IS FAILED ******' + message)
                 assert False
-
 
         else:
             self.driver.save_screenshot(".\\Screenshots\\" + "Test_Login.png")
@@ -51,7 +50,7 @@ class Test_004_login:
 
         self.lo = login(self.driver)
         self.lo.click_logout()
-        self.lo.confirm_logout()
+        # self.lo.confirm_logout()
         self.driver.close()
         self.logger.info('*****************END OF EXCEPTIONAL ENTRIES TEST*****************')
         self.logger.info('***************END OF Test_004_EXCEPTIONAL_ENTRIES*****************')

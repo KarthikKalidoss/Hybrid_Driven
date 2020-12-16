@@ -3,7 +3,7 @@ import jpype
 import _jpype
 import os
 
-# *******************************************DataBase-Connection***********************************************
+# ******************************************* DATABASE - CONNECTION ***********************************************
 try:
     conn = jaydebeapi.connect('com.ingres.jdbc.IngresDriver'
                               , 'jdbc:ingres://i-tapaculo:CL7/sqadb'
