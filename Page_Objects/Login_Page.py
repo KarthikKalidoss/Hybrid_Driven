@@ -153,3 +153,5 @@ class login:
         self.driver.find_element_by_xpath(self.submit_button_xpath).submit()
         message = self.driver.find_element_by_xpath(self.alert_message).text
         return message
+
+    # **************** END OF FUNCTIONALITY BUTTON CLICK FOR CERTIFICATE DATE AND ENTRY STATUS UPDATE******************
